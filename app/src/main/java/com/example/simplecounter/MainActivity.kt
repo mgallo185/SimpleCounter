@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
             textView.text = counter.toString()
             //Toast.makeText(it.context, "Clicked Button",Toast.LENGTH_SHORT ).show()
 
-        if(counter >=20){
+        if(counter >=100){
             plusbutton.visibility= View.VISIBLE
             plusbutton.setOnClickListener {
                 button.text = "add 2"
